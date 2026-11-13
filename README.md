@@ -32,7 +32,7 @@ Below is an overview of the AI engineering demos, protocols, and frameworks feat
 
 ## ⚠️ Copyright & Usage Restrictions (All Rights Reserved)
 
-**Copyright © 2026 [Your Name or GitHub Handle]. All Rights Reserved.**
+**Copyright © 2026 Md Amran Hossain. All Rights Reserved.**
 
 This repository is made public strictly for **viewing, reading, and technical review**. No open-source license is granted.
 
