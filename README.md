@@ -42,5 +42,5 @@ By accessing this repository, you agree to the following terms:
 3. **No Production Deployment:** You may **not** deploy, host, or run this codebase (or any derivative work based on it) in any production, staging, or commercial environment.
 4. **No Modifications or Derivatives:** You may **not** modify, adapt, or build upon this source code to create derivative software.
 
-If you are interested in licensing this code or discussing engineering opportunities, please contact **[Your Email or LinkedIn Profile]**.
+If you are interested in licensing this code or discussing engineering opportunities, please contact **amrancse930@gmail.com**.
 
