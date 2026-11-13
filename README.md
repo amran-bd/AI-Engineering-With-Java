@@ -23,7 +23,7 @@ Below is an overview of the AI engineering demos, protocols, and frameworks feat
 
 ## 🛠️ Tech Stack & Ecosystem
 
-* **Core Languages & Frameworks:** Java, Spring Boot, LangChain4j
+* **Core Languages & Frameworks:** Java, Spring Boot, LangChain4j, AI, OpenAI, Spring AI
 * **Agentic Frameworks & Protocols:** Agent Development Kit (ADK), Model Context Protocol (MCP), Agent-to-Agent (A2A), Multi-Agent Orchestration
 * **AI Development Environments:** AWS Kiro, GCP Antigravity, Spec-Driven Development (SDD)
 * **Cloud & Infrastructure:** AWS, Google Cloud Platform (GCP), Docker, Kubernetes
