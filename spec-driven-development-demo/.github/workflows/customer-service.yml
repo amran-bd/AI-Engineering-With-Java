@@ -1,0 +1,25 @@
+name: Customer Service CI
+
+on:
+  push:
+    paths:
+      - "customer-service/**"
+      - ".github/workflows/customer-service.yml"
+  pull_request:
+    paths:
+      - "customer-service/**"
+      - ".github/workflows/customer-service.yml"
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "25"
+          cache: maven
+          cache-dependency-path: customer-service/pom.xml
+      - name: Verify service and tests
+        run: mvn -B -f customer-service/pom.xml spotless:check verify

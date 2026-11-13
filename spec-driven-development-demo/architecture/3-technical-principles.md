@@ -1,0 +1,30 @@
+# Technical Principles
+
+- Build a Spring Boot Service with Java 25 and maven.
+- Organize code around business capabilities; avoid premature microservices.
+- Keep REST DTOs separate from persistence entities.
+- Use Record pattern for DTOs class.
+- Use explicit mapping between API and persistence models.
+- Map using third party map-struct lib.
+- Keep controllers thin, clean, simple and introduce entry log.
+- Keep business rules in the customer-server/service layer.
+- Define REST contracts using OpenAPI.
+- Use api version using spring boot as the API base path.
+- Return consistent structured errors.
+- Use Spring Data JPA for persistence.
+- Use H2 database with sample data.
+- Introduce production databases and migration tooling in later increments.
+- Validate API input with Jakarta Validation.
+- Use automated tests for acceptance behavior where practical.
+- Later increments must include regression testing for existing behavior.
+- Do not implement speculative features.
+- API contract changes require an explicit specification change and impact analysis.
+- Always focus latest version of technology.
+- Configure for CI/CD
+- add tracing logs lib
+- add metrics logs lib 
+- Use mapper (Third party lib Mapstruct)
+- application.yml file Kubernetes style 
+- Same structure must be keep in the test
+- You can add Mockito lib
+- add slf4j lib
